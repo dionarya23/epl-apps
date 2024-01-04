@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E15A29D12B46BC3E00586122 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A29D02B46BC3E00586122 /* Club.swift */; };
+		E15A29D32B46BC6900586122 /* ClubController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A29D22B46BC6900586122 /* ClubController.swift */; };
+		E15A29D52B46BCBB00586122 /* ClubRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A29D42B46BCBB00586122 /* ClubRow.swift */; };
+		E15A29D82B46BD6400586122 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A29D72B46BD6400586122 /* ProfileView.swift */; };
+		E15A29DA2B46BD7C00586122 /* ClubDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A29D92B46BD7C00586122 /* ClubDetailView.swift */; };
+		E15A29DC2B46C3D700586122 /* MacthCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A29DB2B46C3D700586122 /* MacthCard.swift */; };
+		E15A29DE2B46C41500586122 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A29DD2B46C41500586122 /* Match.swift */; };
+		E15A29E02B46C62700586122 /* MatchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A29DF2B46C62700586122 /* MatchCardView.swift */; };
+		E15A29E22B46D33600586122 /* PlayerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A29E12B46D33600586122 /* PlayerCardView.swift */; };
+		E15A29E52B46D36200586122 /* PlayerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A29E42B46D36200586122 /* PlayerCard.swift */; };
+		E15A29E72B46D3DD00586122 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A29E62B46D3DD00586122 /* Player.swift */; };
+		E15A29E92B46E5C400586122 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A29E82B46E5C400586122 /* SplashScreenView.swift */; };
 		E15B54E02B467DAB00180197 /* DicodingSubmissionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B54DF2B467DAB00180197 /* DicodingSubmissionApp.swift */; };
 		E15B54E22B467DAB00180197 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B54E12B467DAB00180197 /* ContentView.swift */; };
 		E15B54E42B467DAC00180197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15B54E32B467DAC00180197 /* Assets.xcassets */; };
@@ -14,6 +26,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E15A29D02B46BC3E00586122 /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		E15A29D22B46BC6900586122 /* ClubController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubController.swift; sourceTree = "<group>"; };
+		E15A29D42B46BCBB00586122 /* ClubRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubRow.swift; sourceTree = "<group>"; };
+		E15A29D72B46BD6400586122 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E15A29D92B46BD7C00586122 /* ClubDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubDetailView.swift; sourceTree = "<group>"; };
+		E15A29DB2B46C3D700586122 /* MacthCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacthCard.swift; sourceTree = "<group>"; };
+		E15A29DD2B46C41500586122 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		E15A29DF2B46C62700586122 /* MatchCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCardView.swift; sourceTree = "<group>"; };
+		E15A29E12B46D33600586122 /* PlayerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCardView.swift; sourceTree = "<group>"; };
+		E15A29E42B46D36200586122 /* PlayerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCard.swift; sourceTree = "<group>"; };
+		E15A29E62B46D3DD00586122 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E15A29E82B46E5C400586122 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		E15B54DC2B467DAB00180197 /* DicodingSubmission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DicodingSubmission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15B54DF2B467DAB00180197 /* DicodingSubmissionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicodingSubmissionApp.swift; sourceTree = "<group>"; };
 		E15B54E12B467DAB00180197 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +56,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E15A29CF2B46BC2B00586122 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E15A29D02B46BC3E00586122 /* Club.swift */,
+				E15A29D22B46BC6900586122 /* ClubController.swift */,
+				E15A29DD2B46C41500586122 /* Match.swift */,
+				E15A29E62B46D3DD00586122 /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E15A29D62B46BCE100586122 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E15B54E12B467DAB00180197 /* ContentView.swift */,
+				E15A29D42B46BCBB00586122 /* ClubRow.swift */,
+				E15A29D72B46BD6400586122 /* ProfileView.swift */,
+				E15A29D92B46BD7C00586122 /* ClubDetailView.swift */,
+				E15A29DB2B46C3D700586122 /* MacthCard.swift */,
+				E15A29DF2B46C62700586122 /* MatchCardView.swift */,
+				E15A29E12B46D33600586122 /* PlayerCardView.swift */,
+				E15A29E42B46D36200586122 /* PlayerCard.swift */,
+				E15A29E82B46E5C400586122 /* SplashScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E15B54D32B467DAB00180197 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +102,9 @@
 		E15B54DE2B467DAB00180197 /* DicodingSubmission */ = {
 			isa = PBXGroup;
 			children = (
+				E15A29D62B46BCE100586122 /* Views */,
+				E15A29CF2B46BC2B00586122 /* Model */,
 				E15B54DF2B467DAB00180197 /* DicodingSubmissionApp.swift */,
-				E15B54E12B467DAB00180197 /* ContentView.swift */,
 				E15B54E32B467DAC00180197 /* Assets.xcassets */,
 				E15B54E52B467DAC00180197 /* Preview Content */,
 			);
@@ -138,6 +190,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E15B54E22B467DAB00180197 /* ContentView.swift in Sources */,
+				E15A29DC2B46C3D700586122 /* MacthCard.swift in Sources */,
+				E15A29E52B46D36200586122 /* PlayerCard.swift in Sources */,
+				E15A29DE2B46C41500586122 /* Match.swift in Sources */,
+				E15A29E22B46D33600586122 /* PlayerCardView.swift in Sources */,
+				E15A29E72B46D3DD00586122 /* Player.swift in Sources */,
+				E15A29D32B46BC6900586122 /* ClubController.swift in Sources */,
+				E15A29E92B46E5C400586122 /* SplashScreenView.swift in Sources */,
+				E15A29DA2B46BD7C00586122 /* ClubDetailView.swift in Sources */,
+				E15A29D52B46BCBB00586122 /* ClubRow.swift in Sources */,
+				E15A29D12B46BC3E00586122 /* Club.swift in Sources */,
+				E15A29D82B46BD6400586122 /* ProfileView.swift in Sources */,
+				E15A29E02B46C62700586122 /* MatchCardView.swift in Sources */,
 				E15B54E02B467DAB00180197 /* DicodingSubmissionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +344,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +374,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -9,9 +9,22 @@ import SwiftUI
 
 @main
 struct DicodingSubmissionApp: App {
+    @State private var showSplash = true
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if showSplash {
+                SplashScreenView()
+                    .onAppear {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                            withAnimation {
+                                showSplash = false
+                            }
+                        }
+                    }
+            } else {
+                ContentView()
+            }
         }
     }
 }
